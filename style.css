@@ -20,6 +20,12 @@ img{
     height: auto;
 }
 
+.row{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
 
 /* Navbar */
 
@@ -167,4 +173,57 @@ header{
 .header__container button:hover{
     background-color: #7342d6;
     transition: all 300ms ease;
+}
+
+/* Feature */
+
+.title {
+    width: 100%;
+    height: 24px;
+    padding: 24px 0;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title h3{
+    padding: 20px;
+}
+
+.title h1{
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
+.service{
+    width: calc(100% / 3);
+    height: 100px;
+    margin-bottom: 20px;
+    padding: 24px;
+}
+
+.service h2{
+    margin-bottom: 16px;
+    color: #334458;
+}
+
+.service p{
+    color: #636B6C;
+}
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 16px;
+    margin-bottom: 200px;
+}
+
+.title h1{
+    color: #334458;
+}
+
+.title p{
+    color: #636B6C;
 }
