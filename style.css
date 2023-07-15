@@ -282,3 +282,63 @@ header{
 .quality__img--wrapper{
     width: 50%;
 }
+
+/* Get Started */
+
+#get__started{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+    margin-bottom: 150px;
+}
+
+.started__img--wrapper{
+    width: 60%;
+    margin-top: 16px;
+    margin-right: 10%;
+}
+
+.started__description{
+    width: 40%;
+
+}
+
+.big__box{
+    display: flex;
+    padding: 16px 0;
+    margin-bottom: 16px;
+}
+
+#get__started .started__description .no__box h1{
+    color: #B6B8B9;
+    font-weight: 500;
+}
+
+#get__started .started__description .info__box p{
+    color: #636B6C;
+}
+
+#get__started .started__description .info__box h2{
+    color: #334458;
+}
+
+
+.info__box{
+    margin-left: 24px;
+}
+
+#get__started h3{
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+#get__started h1{
+    font-size: 40px;
+    margin-bottom: 16px;
+    color: #334458;
+}
+
+
+
+
