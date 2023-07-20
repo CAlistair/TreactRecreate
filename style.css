@@ -11,6 +11,10 @@ a{
     text-decoration: none;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .purple__blue{
     color: #8217ee;
 }
@@ -349,7 +353,7 @@ header{
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 16px;
-    margin-bottom: 800px;
+    margin-bottom: 500px;
 }
 
 #pricing .container{
@@ -472,4 +476,61 @@ header{
     background-color: #C28544;
     transform: translateY(-8px);
     transition: all 500ms ease;
+}
+
+/* Footer */
+
+footer{
+    background-color: #8217ee;
+    height: 50vh;
+}
+
+.footer__detail{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__detail a{
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.footer__box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.footer__small__box{
+    color: #fff;
+}
+
+.footer__small__box h3{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.footer__small__box p{
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.copy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.footer__logo h1{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.footer__copy{
+    font-size: 16px;
+    font-weight: 500;
 }
