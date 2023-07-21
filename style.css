@@ -534,3 +534,77 @@ footer{
     font-size: 16px;
     font-weight: 500;
 }
+
+/* Small phones, tablets, large smartphones */
+
+@media(max-width: 768px){
+    .nav__links{
+        display: none;
+    }
+
+    .header__container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header__description{
+        width: 100%;
+    }
+
+    .header__img--wrapper{
+        width: 100%;
+    }
+
+    .services{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .service{
+        width: 100%;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .quality__description{
+        width: 100%;
+        margin-bottom: 16px;
+        justify-content: center;
+    }
+
+    .quality__img--wrapper{
+        width: 100%;
+    }
+
+
+    .started__description{
+        width: 100%;
+    }
+
+    .started__img--wrapper{
+        width: 100%;
+    }
+
+    .plans{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .plan{
+        width: 60%;
+    }
+
+
+}
+
+/* small phones, large phones */
+@media (max-width: 550px) {
+.footer__detail a{
+    font-size: 12px
+}
+
+}
